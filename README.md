@@ -9,4 +9,9 @@ En el contexto de nuestro proyecto de Dashboard:
 ## 2.2 Uso de librerías proporcionadas por el lenguaje
 El lenguaje Python incluye librerías estándar que facilitan tareas comunes. En este proyecto, utilizamos la librería random, la cual viene preinstalada con Python, para simular datos dinámicos en las gráficas.
 * Ejemplo de uso en el proyecto:
-  
+  ``` python
+  import random # Librería estándar del lenguaje
+
+# Generación de datos aleatorios para la gráfica de barras
+ventas = [random.randint(10, 50) for _ in range(4)]
+```
